@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     let hero = $("#character").val();
     $(".results").show();
-    $("#name").append(hero);
+    $("#name").empty().append(hero);
 
     (async () => {
       let characterSelect = new CharacterApperence();
@@ -19,11 +19,11 @@ $(document).ready(function() {
     })();
 
     function getElements(response) {
-     if (response) {
-       $("#number").text('Has been in ${respons.main.}.')
-     } else {
-       $("#number").text('There has been a error handling your request.')
-     }
-   }
+      if (response) {
+        $("#number").text(`Has been in ${response.data.results[0].comics.available} comics.`);
+      } else {
+        $("#number").text(`There has been a error handling your request.`);
+      }
+    }
   });
 });
