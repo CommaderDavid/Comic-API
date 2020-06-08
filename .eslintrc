@@ -16,5 +16,8 @@
       "no-debugger": "warn",
       "no-extra-semi": "warn",
       "no-unused-vars": "warn"
-    }
+    },
+    "globals": {
+    "process": true
+  }
 }
