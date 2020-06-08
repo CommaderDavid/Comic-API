@@ -1,6 +1,6 @@
-# Project name
-#### Lesson, for
-#### Date:  by:_**David Boedigheimer**_
+# Comic Characters
+#### 2.3.3.1, for Fidgetech
+#### Date: 6/8/2020  by:_**David Boedigheimer**_
 ### Description
 =
 ### BDD Process
